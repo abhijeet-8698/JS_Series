@@ -19,16 +19,22 @@
 // Code--
 
 /**
- * @param {number[]} nums
- * @param {number} target
- * @return {number}
+//  * @param {number[]} nums
+//  * @param {number} target
+//  * @return {number}
  */
-var searchInsert = function(nums, target) {
+// var searchInsert = function(nums, target) {
     
+    let nums=[1,2,3,4,5];
+    let target = 5;
+
     for (let i=0; i<nums.length;i++){
         if (nums[i]>=target){
             return i;
         }
     }
-    return nums.length;
-};
+    // return nums.length;
+
+    console.log(nums.length);
+    
+// };
